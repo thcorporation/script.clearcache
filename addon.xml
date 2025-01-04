@@ -1,0 +1,8 @@
+<addon id="script.clearcache" version="1.0.0" name="Clear Cache">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.plugin" library="default.py"/>
+    <description>Clears Kodi's cache.</description>
+    <platform>all</platform>
+</addon>
