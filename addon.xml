@@ -8,6 +8,8 @@
     </requires>
    
     <extension point="xbmc.python.plugin" library="default.py"/>
+       <icon>icon.png</icon>
+       <fanart>fanart.png</fanart>
     <description>Clears Kodi's cache.</description>
     <platform>all</platform>
 </addon>
