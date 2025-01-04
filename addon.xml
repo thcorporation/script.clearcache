@@ -2,9 +2,11 @@
     version="1.01"
     name="Clear Cache"
     provider-name="idealkooks"    
+   
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
     </requires>
+   
     <extension point="xbmc.python.plugin" library="default.py"/>
     <description>Clears Kodi's cache.</description>
     <platform>all</platform>
