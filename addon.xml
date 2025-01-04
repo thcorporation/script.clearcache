@@ -1,4 +1,7 @@
-<addon id="script.clearcache" version="1.0.0" name="Clear Cache">
+<addon id="script.cdclearcache"
+    version="1.01"
+    name="Clear Cache"
+    provider-name="idealkooks"    
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
     </requires>
