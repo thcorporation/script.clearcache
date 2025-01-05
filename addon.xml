@@ -9,8 +9,8 @@
    
     <extension point="xbmc.python.script" library="default.py">
         <provides>executable</provides>
-        <icon>icon.png</icon>
-        <fanart>fanart.png</fanart>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.png</fanart>
         <description>Clears Kodi's cache.</description>
     </extension>
     
