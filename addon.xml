@@ -1,15 +1,18 @@
 <addon id="script.cdclearcache"
-       version="1.01"
+       version="1.0.1"
        name="Clear Cache"
        provider-name="idealkooks">
    
     <requires>
-        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
     </requires>
    
-    <extension point="xbmc.python.plugin" library="default.py"/>
-       <icon>icon.png</icon>
-       <fanart>fanart.png</fanart>
-    <description>Clears Kodi's cache.</description>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+        <icon>icon.png</icon>
+        <fanart>fanart.png</fanart>
+        <description>Clears Kodi's cache.</description>
+    </extension>
+    
     <platform>all</platform>
 </addon>
